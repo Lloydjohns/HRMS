@@ -1,0 +1,8 @@
+2025-04-01 09:00:36.876 [info] [certificates] Removed 1 expired certificates
+2025-04-01 09:00:37.655 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-04-01 09:00:37.655 [info] [code-referencing] Public code references are enabled.
+2025-04-01 09:00:38.356 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-04-01 09:02:02.110 [warning] [relatedFiles] unknown language php
+2025-04-01 09:02:03.603 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 283.1828300000052 ms
+2025-04-01 09:02:03.611 [warning] [fetchCompletions] Response status was 402: quota exceeded
+

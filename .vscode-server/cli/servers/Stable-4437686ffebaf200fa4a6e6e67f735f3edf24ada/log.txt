@@ -1,0 +1,83 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-0008912d-8e34-4d09-aac1-06cab556dc64
+Extension host agent listening on /tmp/code-0008912d-8e34-4d09-aac1-06cab556dc64
+
+[10:11:20] 
+
+
+
+
+[10:11:20] Extension host agent started.
+[10:11:21] [<unknown>][c3621868][ManagementConnection] New connection established.
+[10:11:21] [<unknown>][a5db4134][ExtensionHostConnection] New connection established.
+[10:11:21] [<unknown>][a5db4134][ExtensionHostConnection] <342681> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 4 on pty host
+stack trace: CodeExpectedError: Could not find pty 4 on pty host
+    at $.W (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateTitle (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1839)
+    at O.s.<computed> (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[10:11:30] Error [CodeExpectedError]: Could not find pty 4 on pty host
+    at $.W (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateTitle (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1839)
+    at O.s.<computed> (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 4 on pty host
+stack trace: CodeExpectedError: Could not find pty 4 on pty host
+    at $.W (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateIcon (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1889)
+    at O.s.<computed> (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[10:11:30] Error [CodeExpectedError]: Could not find pty 4 on pty host
+    at $.W (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateIcon (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1889)
+    at O.s.<computed> (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+New EH opened, aborting shutdown
+[10:16:20] New EH opened, aborting shutdown
+[10:40:56] [<unknown>][c3621868][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:40:57] [<unknown>][a5db4134][ExtensionHostConnection] <342681> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[10:40:57] Last EH closed, waiting before shutting down

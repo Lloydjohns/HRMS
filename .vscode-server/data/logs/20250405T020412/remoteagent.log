@@ -1,0 +1,19 @@
+2025-04-05 02:04:13.128 [info] 
+
+
+
+
+2025-04-05 02:04:13.184 [info] Extension host agent started.
+2025-04-05 02:04:13.623 [error] [/home/hr.bcp-sms1.com/.vscode-server/extensions/github.copilot-chat-0.25.1]: This extension is using the API proposals 'defaultChatParticipant' and 'chatParticipantPrivate' that are not compatible with the current version of VS Code.
+2025-04-05 02:04:13.632 [error] [/home/hr.bcp-sms1.com/.vscode-server/extensions/github.copilot-chat-0.25.1]: This extension is using the API proposals 'defaultChatParticipant' and 'chatParticipantPrivate' that are not compatible with the current version of VS Code.
+2025-04-05 02:04:13.715 [info] Deleted marked for removal extension from disk github.copilot /home/hr.bcp-sms1.com/.vscode-server/extensions/github.copilot-1.295.0
+2025-04-05 02:04:13.716 [info] Deleted marked for removal extension from disk github.copilot-chat /home/hr.bcp-sms1.com/.vscode-server/extensions/github.copilot-chat-0.25.1
+2025-04-05 02:04:13.721 [info] Marked extension as removed github.copilot-1.295.0
+2025-04-05 02:04:13.836 [info] [<unknown>][a88f7ccd][ManagementConnection] New connection established.
+2025-04-05 02:04:13.851 [info] [<unknown>][012dfbf2][ExtensionHostConnection] New connection established.
+2025-04-05 02:04:14.163 [info] [<unknown>][012dfbf2][ExtensionHostConnection] <4109389> Launched Extension Host Process.
+2025-04-05 02:09:13.190 [info] New EH opened, aborting shutdown
+2025-04-05 02:42:32.465 [info] [<unknown>][a88f7ccd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-05 02:42:32.866 [info] [<unknown>][012dfbf2][ExtensionHostConnection] <4109389> Extension Host Process exited with code: 0, signal: null.
+2025-04-05 02:42:32.867 [info] Last EH closed, waiting before shutting down
+2025-04-05 02:47:32.881 [info] Last EH closed, shutting down

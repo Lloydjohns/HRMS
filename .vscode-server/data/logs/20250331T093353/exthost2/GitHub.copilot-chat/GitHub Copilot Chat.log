@@ -1,0 +1,25 @@
+2025-03-31 10:11:10.978 [info] Can't use the Electron fetcher in this environment.
+2025-03-31 10:11:10.978 [info] Using the Node fetch fetcher.
+2025-03-31 10:11:10.978 [info] Initializing Git extension service.
+2025-03-31 10:11:10.978 [info] Successfully activated the vscode.git extension.
+2025-03-31 10:11:10.978 [info] Enablement state of the vscode.git extension: true.
+2025-03-31 10:11:10.978 [info] Successfully registered Git commit message provider.
+2025-03-31 10:11:14.070 [info] Logged in as KAS-L1
+2025-03-31 10:11:14.892 [info] Got Copilot token for KAS-L1
+2025-03-31 10:11:19.527 [info] Fetched model metadata in 4620ms 5ccde1c3-30dc-42d4-9239-39ee8e3c49fe
+2025-03-31 10:11:19.607 [info] activationBlocker from 'languageModelAccess' took for 8798ms
+2025-03-31 10:11:23.184 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-03-31 10:11:23.184 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-03-31 10:11:23.214 [info] Registering default platform agent...
+2025-03-31 10:11:34.435 [info] message 0 returned. finish reason: [stop]
+2025-03-31 10:11:34.438 [info] request done: requestId: [d3abbef5-7877-4fbc-91e5-0d0931fa0eed] model deployment ID: []
+2025-03-31 10:11:34.441 [info] [inline fix] Problems generating edits: Patch is a no-op [patch no op], invalid patches: 1
+2025-03-31 10:12:06.686 [info] message 0 returned. finish reason: [stop]
+2025-03-31 10:12:06.688 [info] request done: requestId: [2024663d-be26-42fe-9be9-4f12d2aa986b] model deployment ID: []
+2025-03-31 10:12:09.642 [info] message 0 returned. finish reason: [stop]
+2025-03-31 10:12:09.644 [info] request done: requestId: [04035925-e1c7-4bd6-967a-e0836680dd87] model deployment ID: []
+2025-03-31 10:26:28.023 [info] Fetched model metadata in 1765ms 35e985e3-187a-433e-8952-8a19af2a9c23
+2025-03-31 10:32:03.312 [info] message 0 returned. finish reason: [stop]
+2025-03-31 10:32:03.340 [info] request done: requestId: [83e8422d-e16c-412c-adc9-125d00afeee3] model deployment ID: []
+2025-03-31 10:32:07.607 [info] message 0 returned. finish reason: [stop]
+2025-03-31 10:32:07.608 [info] request done: requestId: [9329776e-a859-48e7-90e2-d1995b8c7918] model deployment ID: []

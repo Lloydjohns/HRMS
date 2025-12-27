@@ -1,0 +1,124 @@
+2025-04-04 13:59:30.053 [info] Extension host with pid 3385470 started
+2025-04-04 13:59:30.053 [error] Error: EEXIST: file already exists, open '/home/hr.bcp-sms1.com/.vscode-server/data/User/workspaceStorage/df5ac8204a7b36aa517bda4fda17e81b/vscode.lock'
+2025-04-04 13:59:30.076 [info] Lock '/home/hr.bcp-sms1.com/.vscode-server/data/User/workspaceStorage/df5ac8204a7b36aa517bda4fda17e81b/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-04-04 13:59:30.112 [info] Lock '/home/hr.bcp-sms1.com/.vscode-server/data/User/workspaceStorage/df5ac8204a7b36aa517bda4fda17e81b/vscode.lock': The lock does not look stale, elapsed: 598 ms, giving up.
+2025-04-04 13:59:30.137 [info] Lock '/home/hr.bcp-sms1.com/.vscode-server/data/User/workspaceStorage/df5ac8204a7b36aa517bda4fda17e81b-1/vscode.lock': Lock acquired.
+2025-04-04 13:59:30.687 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-04 13:59:30.692 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-04-04 13:59:31.438 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-04-04 13:59:31.439 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-04-04 13:59:32.595 [info] Eager extensions activated
+2025-04-04 13:59:32.595 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 13:59:32.596 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 13:59:32.597 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 13:59:32.597 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-04 13:59:45.833 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2025-04-04 14:02:57.421 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-04-04 14:02:58.533 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-04-04 14:41:37.822 [info] Extension host terminating: received terminate message from renderer
+2025-04-04 14:41:37.824 [info] Lock '/home/hr.bcp-sms1.com/.vscode-server/data/User/workspaceStorage/df5ac8204a7b36aa517bda4fda17e81b-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-04-04 14:41:38.048 [error] Canceled: Canceled
+    at new HR (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:156308)
+    at i4.U (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:160919)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:158413)
+    at vw.g (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:41039)
+    at vw.executeCommand (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+    at r.registerCommand.description (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:39873)
+    at vw.h (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:41559)
+    at vw.g (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:40636)
+    at vw.executeCommand (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+    at Object.executeCommand (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:173:30346)
+    at Th.L [as value] (/home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:511809)
+    at P.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.C (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+    at P.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+    at Object.g [as dispose] (/home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:534449)
+    at /home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:540767
+    at Array.forEach (<anonymous>)
+    at b.dispose (/home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:540753)
+    at iv.<anonymous> (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+    at iv.dispose (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+    at iv.<anonymous> (/home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:514293)
+    at iv.dispose (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+    at pi (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:14994
+    at file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at vV.eb (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:11921)
+    at file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:9876
+    at Array.map (<anonymous>)
+    at vV.$ (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:9864)
+    at vV.terminate (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:10107)
+    at oP.terminate (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+    at es (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:197:5701)
+    at Th.value (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:197:3862)
+    at P.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at Jn.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:9459)
+    at Km.A (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:12575)
+    at Th.value (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:10995)
+    at P.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at M6.acceptChunk (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:7942)
+    at file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:7228
+    at Socket.t (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:15252)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+    at Pipe.callbackTrampoline (node:internal/async_hooks:130:17) setContext undefined
+2025-04-04 14:41:38.053 [error] Canceled: Canceled
+    at new HR (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:156308)
+    at i4.U (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:160919)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:158413)
+    at vw.g (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:41039)
+    at vw.executeCommand (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+    at r.registerCommand.description (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:39873)
+    at vw.h (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:41559)
+    at vw.g (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:40636)
+    at vw.executeCommand (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:111:40543)
+    at Object.executeCommand (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:173:30346)
+    at t.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/github/dist/extension.js:2:217805)
+    at /home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/github/dist/extension.js:2:218764
+    at Th.value (/home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:631688)
+    at P.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.C (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+    at P.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+    at Object.g [as dispose] (/home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:534449)
+    at /home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:540767
+    at Array.forEach (<anonymous>)
+    at b.dispose (/home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:540753)
+    at iv.<anonymous> (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+    at iv.dispose (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+    at iv.<anonymous> (/home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/extensions/git/dist/main.js:2:514293)
+    at iv.dispose (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+    at pi (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+    at file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:14994
+    at file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+    at Object.dispose (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at vV.eb (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:11921)
+    at file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:9876
+    at Array.map (<anonymous>)
+    at vV.$ (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:9864)
+    at vV.terminate (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:115:10107)
+    at oP.terminate (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:116:1434)
+    at es (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:197:5701)
+    at Th.value (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:197:3862)
+    at P.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at Jn.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:9459)
+    at Km.A (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:12575)
+    at Th.value (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:10995)
+    at P.B (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at P.fire (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at M6.acceptChunk (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:7942)
+    at file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:7228
+    at Socket.t (file:///home/hr.bcp-sms1.com/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/workbench/api/node/extensionHostProcess.js:29:15252)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+    at Pipe.callbackTrampoline (node:internal/async_hooks:130:17) setContext undefined
+2025-04-04 14:41:38.058 [info] Extension host with pid 3385470 exiting with code 0

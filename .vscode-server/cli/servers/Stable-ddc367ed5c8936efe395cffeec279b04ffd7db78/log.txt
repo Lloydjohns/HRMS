@@ -1,0 +1,49 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-dfbeeed7-72db-49fc-a795-0cc2aa96039b
+Extension host agent listening on /tmp/code-dfbeeed7-72db-49fc-a795-0cc2aa96039b
+
+[03:46:23] 
+
+
+
+
+[03:46:23] Extension host agent started.
+[03:46:24] [<unknown>][26ccc8f2][ManagementConnection] New connection established.
+[03:46:24] [<unknown>][057df473][ExtensionHostConnection] New connection established.
+[03:46:24] [<unknown>][057df473][ExtensionHostConnection] <1584250> Launched Extension Host Process.
+[03:46:34] Getting Manifest... github.copilot
+[03:46:34] Installing extension: github.copilot {
+  productVersion: { version: '1.98.2', date: '2025-03-12T13:32:45.399Z' },
+  pinned: false,
+  operation: 3,
+  isApplicationScoped: true,
+  donotVerifySignature: false,
+  context: { clientTargetPlatform: 'win32-x64' },
+  profileLocation: Er {
+    scheme: 'file',
+    authority: '',
+    path: '/home/hr.bcp-sms1.com/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/hr.bcp-sms1.com/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/hr.bcp-sms1.com/.vscode-server/extensions/extensions.json'
+  }
+}
+[03:46:34] Getting Manifest... github.copilot-chat
+[03:46:38] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 2264ms.
+[03:46:40] Extracted extension to file:///home/hr.bcp-sms1.com/.vscode-server/extensions/github.copilot-1.295.0: github.copilot
+[03:46:40] Renamed to /home/hr.bcp-sms1.com/.vscode-server/extensions/github.copilot-1.295.0
+[03:46:40] Marked extension as removed github.copilot-1.293.0
+[03:46:40] Extension installed successfully: github.copilot file:///home/hr.bcp-sms1.com/.vscode-server/extensions/extensions.json
+New EH opened, aborting shutdown
+[03:51:23] New EH opened, aborting shutdown
+[04:08:44] [<unknown>][26ccc8f2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:08:45] [<unknown>][057df473][ExtensionHostConnection] <1584250> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[04:08:45] Last EH closed, waiting before shutting down

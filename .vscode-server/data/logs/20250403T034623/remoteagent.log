@@ -1,0 +1,22 @@
+2025-04-03 03:46:23.824 [info] 
+
+
+
+
+2025-04-03 03:46:23.850 [info] Extension host agent started.
+2025-04-03 03:46:24.455 [info] [<unknown>][26ccc8f2][ManagementConnection] New connection established.
+2025-04-03 03:46:24.458 [info] [<unknown>][057df473][ExtensionHostConnection] New connection established.
+2025-04-03 03:46:24.721 [info] [<unknown>][057df473][ExtensionHostConnection] <1584250> Launched Extension Host Process.
+2025-04-03 03:46:34.010 [info] Getting Manifest... github.copilot
+2025-04-03 03:46:34.298 [info] Installing extension: github.copilot {"productVersion":{"version":"1.98.2","date":"2025-03-12T13:32:45.399Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"profileLocation":{"$mid":1,"fsPath":"/home/hr.bcp-sms1.com/.vscode-server/extensions/extensions.json","external":"file:///home/hr.bcp-sms1.com/.vscode-server/extensions/extensions.json","path":"/home/hr.bcp-sms1.com/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-04-03 03:46:34.952 [info] Getting Manifest... github.copilot-chat
+2025-04-03 03:46:38.437 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 2264ms.
+2025-04-03 03:46:40.663 [info] Extracted extension to file:///home/hr.bcp-sms1.com/.vscode-server/extensions/github.copilot-1.295.0: github.copilot
+2025-04-03 03:46:40.691 [info] Renamed to /home/hr.bcp-sms1.com/.vscode-server/extensions/github.copilot-1.295.0
+2025-04-03 03:46:40.717 [info] Marked extension as removed github.copilot-1.293.0
+2025-04-03 03:46:40.729 [info] Extension installed successfully: github.copilot file:///home/hr.bcp-sms1.com/.vscode-server/extensions/extensions.json
+2025-04-03 03:51:23.852 [info] New EH opened, aborting shutdown
+2025-04-03 04:08:44.859 [info] [<unknown>][26ccc8f2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-03 04:08:45.153 [info] [<unknown>][057df473][ExtensionHostConnection] <1584250> Extension Host Process exited with code: 0, signal: null.
+2025-04-03 04:08:45.154 [info] Last EH closed, waiting before shutting down
+2025-04-03 04:13:45.165 [info] Last EH closed, shutting down
